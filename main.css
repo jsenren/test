@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#newsBox {
+    list-style: none;
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+#newsBox li {
+    letter-spacing: 15px;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 20px;
+    margin-bottom: 1px;
+    line-height: 30px;
+    cursor: pointer;
+}
+#newsBox li:last-child {
+    margin-bottom: 0;
+}
